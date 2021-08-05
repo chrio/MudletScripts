@@ -21,7 +21,7 @@ Scriptwatcher.addNewScripts = false
 -- Make sure to only set unique script names
 -- we do not watch for instance if we have multiple script with same name
 Scriptwatcher.scripts = Scriptwatcher.scripts or {
-    Scriptwatcher = 'C:/repos/MudletScripts/Scriptwatcher.lua',
+    Scriptwatcher = 'C:/repos/MudletScripts/scriptwatcher/scriptwatcher.lua',
 }
 
 Scriptwatcher.onchange = function()
